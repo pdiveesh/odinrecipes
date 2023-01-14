@@ -1,19 +1,45 @@
-.Recipes{
-    color: black;
-    background-color: #fee9e1;
-    font-size: 100px;
-    font-weight: bold;
-    text-align: center;
-    padding: 300px 150px;
-    border: 1px solid #53cfda;
-    margin-top: 0;
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
     
+}
+h1,html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.Recipes{
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    background-image: url("recipes/images/Ingredients.jpg");
+    background-size: auto;
+    background-blend-mode: multiply;
+    font-size: 100px;
+    text-align: center;
 }
 .TomandJerry{
     display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 1500px;
-    border: 2px solid #53cfda;
-    padding: 8px 16px;
+    margin: auto;
+   border-radius: 25px;
+    width: 750px;
+margin-top: 30px;
+}
+#items {
+    margin-top: 32px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 25px;
+    background-color: white
+}
+.tea,.biryani,.potato{
+    padding: 5px;
+    color: black;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
 }
