@@ -9,10 +9,10 @@
 h1,html,body{
     margin: 0;
     padding: 0;
-
+ background-color: #050801;
 }
 .Recipes{
-    color: white;
+    color: #00f1e1;
     background-color: rgba(0,0,0,.6);
     background-image: url("recipes/images/Ingredients.jpg");
     background-size: auto;
@@ -33,11 +33,11 @@ margin-top: 30px;
     border: 1px solid black;
     text-align: left;
     border-radius: 25px;
-    background-color: white
+    background-color: white;
 }
 .tea,.biryani,.potato{
     padding: 5px;
-    color: black;
+    color:#00f1e1;
     font-size: 24px;
 }
 a{
