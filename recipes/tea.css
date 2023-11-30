@@ -3,3 +3,16 @@ h1,body
  color: #00f1e1;
  background-color: #050801;
 }
+.Tea{
+    border-radius: 25px;
+    width: 750px;
+    height: auto;
+margin-top: 30px;
+
+}
+.Chai{
+
+    
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
